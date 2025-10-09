@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchProductos, deleteProducto } from '../services/products';
 import ProductCard from '../components/ProductCard';
 import ProductForm from '../components/ProductForm'; // veremos abajo
-import Toasts from '../components/Toasts';
+import Toasts from '../components/Toasts';   
 
 export default function Productos() {
   const [productos, setProductos] = useState([]);

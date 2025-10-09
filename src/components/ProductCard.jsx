@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import SellModal from './SellModal';
 import { useAuth } from '../context/AuthContext';
-import { venderProducto, getCalorias, getCosto, getRentabilidad } from '../services/productos';
+import { venderProducto, getCalorias, getCosto, getRentabilidad } from '../services/products';
 
 export default function ProductCard({ product, onSold }) {
   const { profile } = useAuth();
